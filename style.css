@@ -53,6 +53,17 @@ header{
 .btn-primary{
     background-color: #FD6E0A;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.f-size{
+    font-size:18;
+    color: #757575;
+}
+.center{
+    text-align: center;
+}
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -63,7 +74,7 @@ header{
     margin-left:180px ;
 }
 .banner img{
-    width: 550px;
+    width: 580px;
 }
 .banner h4{
     font-size: 2rem;
@@ -73,4 +84,44 @@ header{
 }
 .banner p{
     font-size: 1.5rem;
+}
+main{
+    
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    
+    
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;   
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.do-section{
+    padding: 130px 150px;
+    
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.25);
 }
