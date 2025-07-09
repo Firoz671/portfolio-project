@@ -143,3 +143,23 @@ main{
 .dbtn{
     margin: 50px;
 }
+.footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"] ,footer textarea{
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
